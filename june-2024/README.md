@@ -1,6 +1,6 @@
 # June 2024 Protests
 
-![June 2024 Protests](../images/june-2024.jpg)
+![June 2024 Protests](images/june-2024.jpg)
 
 ## Overview
 
