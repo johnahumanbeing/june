@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ff3333;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #ff3333;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Victims and Traitors Cards */
+.victim-card, .traitor-card {
+    background-color: #2a2a2a;
+    border: 1px solid #ff3333;
+    padding: 15px;
+    margin: 10px 0;
+    max-width: 300px;
+}
+
+/* Timeline Styles */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.timeline-container {
+    padding: 20px 0;
+    position: relative;
+}
+
+.timeline-item {
+    margin-bottom: 30px;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+}
+
+.timeline-marker {
+    width: 15px;
+    height: 15px;
+    background-color: #ff3333;
+    border-radius: 50%;
+    position: absolute;
+    left: -30px;
+    top: 5px;
+    z-index: 1;
+}
+
+.timeline-content {
+    background-color: #2a2a2a;
+    padding: 15px;
+    border: 1px solid #ff3333;
+    border-radius: 5px;
+    width: 100%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.timeline-content:hover {
+    transform: scale(1.05);
+    background-color: #3a3a3a;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #ff3333;
+    top: 0;
+    bottom: -30px;
+    left: -23px;
+}
+
+.timeline-item:last-child::before {
+    display: none; /* No line after the last item */
+}
+
+.timeline-item.active .timeline-content {
+    background-color: #ff3333;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    .timeline-item {
+        margin-left: 30px;
+    }
+    .timeline-marker {
+        left: 0;
+    }
+    .timeline-item::before {
+        left: 7px;
+    }
+}
