@@ -125,3 +125,17 @@ footer {
         left: 7px;
     }
 }
+
+/* Traitors section layout */
+main > section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: flex-start;
+}
+
+.traitor-card {
+    flex: 1 1 280px;
+    max-width: 300px;
+    box-sizing: border-box;
+}

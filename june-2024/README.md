@@ -4,11 +4,11 @@
 
 ## Overview
 
-In June 2024, a series of protests took place across various cities. These protests were driven by a range of social, economic, and political issues that resonated with a large portion of the population.
+In June 2024, a series of protests took place across various cities, driven by a range of social, economic, and political issues that resonated with a large portion of the population.
 
 ## Key Events
 
-- **June 1, 2024**: The protests began in City A, sparked by [specific event].
+- **June 1, 2024**: Protests began in City A, sparked by a specific event.
 - **June 5, 2024**: Major demonstrations occurred in City B, with significant participation.
 - **June 10, 2024**: Clashes between protesters and law enforcement were reported in City C.
 
