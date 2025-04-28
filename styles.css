@@ -33,7 +33,8 @@ h1, h2, h3 {
 
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 5px 10px;
+    font-size: 0.85rem;
     background-color: #333;
     position: fixed;
     bottom: 0;
@@ -115,6 +116,20 @@ footer {
 
 /* Responsive Adjustments */
 @media (max-width: 600px) {
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
+    header {
+        padding: 10px;
+    }
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    main {
+        padding: 10px;
+    }
     .timeline-item {
         margin-left: 30px;
     }
@@ -123,6 +138,14 @@ footer {
     }
     .timeline-item::before {
         left: 7px;
+    }
+    .victim-card, .traitor-card {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
     }
 }
 
