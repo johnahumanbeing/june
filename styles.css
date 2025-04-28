@@ -41,6 +41,17 @@ footer {
     width: 100%;
 }
 
+.footer-text {
+    margin: 2px 0;
+}
+
+@media (max-width: 600px) {
+    footer {
+        padding: 3px 8px;
+        font-size: 0.75rem;
+    }
+}
+
 /* Victims and Traitors Cards */
 .victim-card, .traitor-card {
     background-color: #2a2a2a;
