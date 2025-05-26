@@ -1,0 +1,60 @@
+{
+  "victims": [
+    {
+      "name": "Rex Kanyike Masai",
+      "date": "June 25, 2024",
+      "fate": "Shot dead by police during Nairobi protest."
+    },
+    {
+      "name": "Denzel Omondi",
+      "date": "July 2024",
+      "fate": "Abducted, found dead in a dam."
+    },
+    {
+      "name": "Erickson Mutisya",
+      "date": "June 2024",
+      "fate": "shot outside parliament."
+    },
+    {
+      "name": "David Chege",
+      "date": "June 25, 2024",
+      "fate": "Shot during the protest outside parliament."
+    },
+    {
+      "name": "Erick Shieni",
+      "date": "June 25, 2024",
+      "fate": "shot outside parliament."
+    }
+  ],
+  "traitors": [
+    {
+      "name": "William Samoei Ruto",
+      "role": "President",
+      "actions": "Brought the Finance Bill 2024."
+    },
+    {
+      "name": "Hon Abdul Haro Ibrahim",
+      "role": "MP",
+      "actions": "Voted for Finance Bill 2024",
+      "constituency": "Mandera South Constituency"
+    },
+    {
+      "name": "Hon Adams Kipsanai",
+      "role": "MP",
+      "actions": "Voted for Finance Bill 2024",
+      "constituency": "Keiyo North Constituency"
+    },
+    {
+      "name": "Hon Adan Keynan",
+      "role": "MP",
+      "actions": "Voted for Finance Bill 2024",
+      "constituency": "Eldas Constituency"
+    },
+    {
+      "name": "Hon Adow Mohamed",
+      "role": "MP",
+      "actions": "Voted for Finance Bill 2024",
+      "constituency": "Wajir South Constituency"
+    }
+  ]
+}
