@@ -31,3 +31,9 @@ The June 2024 protests had a significant impact on the country, leading to:
 ## Conclusion
 
 The June 2024 protests were a pivotal moment in the country's history, highlighting the power of collective action and the importance of addressing underlying societal issues.
+
+## NB:
+To run this project locally clone this repo then use 
+`python3 -m http.server 8000`
+
+This project is also done with the help of AI `(Blackbox-AI)` incase of any error submit a pull request or use m email to fix the errors.
